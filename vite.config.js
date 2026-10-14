@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import flowbiteReact from "flowbite-react/plugin/vite";
 
 export default defineConfig({
+  base: '/my_First_Todo_React/',
   plugins: [
     react(),
     tailwindcss(),
